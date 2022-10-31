@@ -20,6 +20,8 @@ export const App = () => {
 
       case 'bad':
         return setBad(prevNum => prevNum + 1);
+      default:
+        return;
     }
   };
 
